@@ -1,0 +1,30 @@
+.card {
+  width: 600px;
+  margin-bottom: 0;
+}
+
+.field {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 0 3px 3px;
+  background: rgb(219, 243, 214);
+}
+
+.square_active {
+  background-image: url(../img/goblin.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(42, 44, 165);
+}
