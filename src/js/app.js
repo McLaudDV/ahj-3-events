@@ -6,7 +6,7 @@
 import paint from './paint';
 
 paint();
-function play(){
+function play() {
   let playing = true;
   let activeSquare = 1;
   const dead = document.querySelector('.count_dead');
@@ -34,7 +34,7 @@ function play(){
         playing = true;
         if (getSquare(index).className.includes('square_active')) {
           dead.textContent++;
-          getSquare(index).classList.remove('square_active')
+          getSquare(index).classList.remove('square_active');
         } else {
           lost.textContent++;
         }
@@ -50,7 +50,5 @@ function play(){
     }
   }, 1000);
   next();
-};
-play()
-//document.addEventListener('click', play )
- 
+}
+play();
