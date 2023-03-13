@@ -24,7 +24,7 @@ function play() {
     activateSquare(activeSquare);
     next();
     playing = false;
-    if (lost.textContent >= 10) {
+    if (lost.textContent >= 5) {
       alert('Вы проиграли');
       dead.textContent = 0;
       lost.textContent = 0;
